@@ -121,3 +121,21 @@ body {
   color: white;
   background-color: cadetblue;
 }
+
+/* FOOTER styling */
+footer {
+  width: 960px;
+  margin: auto;
+  margin-top: 5rem;
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .logo {
+  padding: 4rem 0 4rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
