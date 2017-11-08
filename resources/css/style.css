@@ -66,3 +66,32 @@ body {
 }
 
 /* SERVICES styling */
+.services {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services div {
+  height: 8rem;
+  max-width: 5rem;
+  margin: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.services .exams {
+  max-width: 3.5rem;
+}
+
+.services img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* INFO styling */
